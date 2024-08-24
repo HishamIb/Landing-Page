@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
 }
 body{
     overflow: scroll;
@@ -22,6 +21,7 @@ header{
     height: 80vh;
     width: 100%;
     background-color: #1f2937;
+    color: white;
 }
 .logo-links-header{
     display: flex;
@@ -55,8 +55,9 @@ ul{
 }
 .hero-left button{
     padding: 10px 25px;
-    background-color: rgb(16, 36, 61);
+    background-color: rgb(17, 106, 214);
     border-radius: 10px;
+    border: none;
 }
 .hero-right{
     flex: 1;
@@ -66,3 +67,104 @@ ul{
     min-height: 100px;
 }
 /* header end */
+
+/* content styles start */
+.content1 h1{
+    margin-top: 30px;
+    text-align: center;
+}
+.content1-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.card-container{
+    width: 200px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+.card{
+    width: 150px;
+    height: 160px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+.content2{
+    height: 65vh;
+    width: 100%;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-container{
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.quote{
+    font-size: 36px;
+}
+.quote-writer{
+    font-size: 25px;
+    align-self: flex-end ;
+}
+
+/* call to action css */
+.cta-container{
+    width: 100%;
+    height: 50vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cta-components{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    width: 80%;
+    height: 25vh;
+    align-items: center;
+    background-color: rgb(70, 70, 199);
+    color: white;
+    border-radius: 10px;
+}
+.cta-right button{
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: rgb(70, 70, 199);
+    border: 1px solid white;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.cta-right button:hover{
+    background-color: white;
+    color: rgb(70, 70, 199);
+}
+/* call to action css */
+/* footer css start*/
+footer{
+    width: 100%;
+    background-color: rgb(15, 15, 78);
+    height: 20vh;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    
+}
+/* footer css end*/
